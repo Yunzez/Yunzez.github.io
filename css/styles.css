@@ -159,13 +159,13 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #6f42c1;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
-  text-decoration: underline;
+  color: e8e3d3;
+  background-color: #b2b4b8;
 }
 
 a:not([href]):not([class]) {
@@ -4295,7 +4295,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #fbf653;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #6f42c1 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,7 +9777,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #6f42c1 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9987,7 +9987,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 20rem;
   }
 }
 h1,
@@ -10017,7 +10017,7 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
@@ -10069,7 +10069,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #343a40;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10083,7 +10083,20 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 1rem;
+}
+
+.award-icon img{
+   width:100px;
+   height:100px;
+   margin-bottom:20px
+}
+
+.award-icon a{
+   font-size: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 15px
 }
 
 section.resume-section {
